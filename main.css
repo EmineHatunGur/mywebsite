@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 0.5rem;
+}
+
+#navbar ul li a:hover {
+    background: #336ea2;
+    border-radius: 4px;
+}
+
+/* home section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px 50px 2px;
+
+}
+/*#home .name/*{
+    text-align: center;
+}*/
+#home .name h2{
+    margin-bottom: 0.75rem;
+
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+/*#home a/*{ global.css deki classları kullandığımızdan buna şuanlık gerek duymuyoruz.
+    margin-top: 1.25rem;
+    background: #336ea2;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+/*}
+#home a hover/*{
+    color: #336ea2;
+    background: #fff;
+    border: 0.5px solid #336ea2;
+}*/
+/*traning*/
+#traning{
+    color: #fff;
+    padding: 1rem;
+}
+#traning .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#traning .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 05rem;
+}
+#traning .items .item:hover{
+    color: #778899;
+    opacity: 0.6;
+
+}

@@ -1,0 +1,13 @@
+#navbar{
+    flex-direction: column;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    height: 90px;
+}
+#traning .items{
+    flex-direction: column;
+}
+#traning .items .item{
+    width: 100%;
+}
